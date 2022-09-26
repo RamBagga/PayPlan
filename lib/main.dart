@@ -2,6 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:payplan/GsheetComponents/ImportToGsheetClass.dart';
+import 'package:payplan/Screens/HomePage.dart';
+import 'package:payplan/Screens/IntroductoryScreens/IntroScreen.dart';
 import 'package:payplan/SmsComponents/SMSClass.dart';
 
 import 'Screens/HomeScreen.dart';
@@ -16,7 +18,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomeScreen(),
+      home: SafeArea(
+        child: IntroScreen(),
+      ),
     );
   }
 }

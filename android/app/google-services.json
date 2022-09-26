@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "2275095282",
+    "project_id": "payplan-cloud",
+    "storage_bucket": "payplan-cloud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2275095282:android:e6ff958580d3c589b5966b",
+        "android_client_info": {
+          "package_name": "com.example.payplan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2275095282-lutdrd5pln7rbql1n28bnobj5skkes13.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAymzE3hIiH8P4s6BwD2VFuh9d3Zx9aen0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2275095282-lutdrd5pln7rbql1n28bnobj5skkes13.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

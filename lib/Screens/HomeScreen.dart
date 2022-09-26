@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gsheets/gsheets.dart';
 import 'package:payplan/GsheetComponents/ImportToGsheetClass.dart';
+import 'package:payplan/Screens/HomePage.dart';
 import 'package:payplan/SmsComponents/SMSClass.dart';
 import 'package:sms/sms.dart';
 
@@ -131,26 +132,6 @@ class _HomeScreenState extends State<HomeScreen> {
     List<String> msgB = allMessages.map((e) => e.body).toList();
     //List<DateTime> msgD = allMessages.map((e) => e.date).toList();
     _import.importX(msgB);
-    return Scaffold(
-      body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 100.0),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          //crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            ElevatedButton(
-              onPressed: () {
-                getAllMessages();
-              },
-              child: Text('Get Messages'),
-            ),
-            ElevatedButton(
-              onPressed: () {},
-              child: Text('Import to Excel'),
-            ),
-          ],
-        ),
-      ),
-    );
+    return HomePage();
   }
 }
