@@ -1,15 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:payplan/Screens/Screen1Home/Compo/InfoCardTextComponent.dart';
 import 'package:payplan/Screens/Screen1Home/Compo/graphClass.dart';
 import 'package:payplan/Screens/Screen1Home/Compo/guageClass.dart';
-import 'package:syncfusion_flutter_charts/charts.dart';
 import 'package:syncfusion_flutter_gauges/gauges.dart' as guage;
-import 'package:syncfusion_flutter_gauges/gauges.dart';
-
-import '../../Constants/Constants.dart';
-import '../HomePage.dart';
 import 'Compo/TimeLineSwitcher.dart';
 
 class Screen1Home extends StatelessWidget {
