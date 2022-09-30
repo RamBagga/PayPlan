@@ -28,9 +28,11 @@
 * #### **Tasks :** 
     >[&cross;] Document the Specifications --> Rough  
     >
-    >[&cross;] Login / SignUp Auth Setup  
+<!--  
+  >[&cross;] Login / SignUp Auth Setup  
+-->
     >
-    >[&cross;] SMS read & write on Firebase  
+    >[&cross;] SMS read & write on excel
     >
     >[&cross;] Data Read and embed in a graph (Curr show retrival of hard data)  
 
@@ -44,11 +46,12 @@
 * **DeadLine : 21th Sept 12pm**
 
 * #### **Tasks :** 
+    >To be done
+<!--
     >[&cross;] Gather Data  
     >
     >[&cross;] Model Creation 
-
-
+-->
 <!--
     [ ] Model testing
     [ ] Writing Back data to firebase
