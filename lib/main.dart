@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:payplan/Screens/IntroductoryScreens/IntroScreen.dart';
+import 'package:payplan/Screens/ProfileScreen/ProfileScreen.dart';
 
 import 'Screens/BackgroundScriptClass.dart';
 
@@ -13,8 +15,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: SafeArea(
-        child: BackgroundScriptClass(),
+        child: IntroScreen(),
       ),
     );
   }
 }
+
+// og child = BackgroundScriptClass()

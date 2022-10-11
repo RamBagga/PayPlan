@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:payplan/Screens/ProfileScreen/ProfileScreen.dart';
 import 'package:payplan/Screens/Screen1Home/Screen1_Home.dart';
 import 'package:sliding_clipped_nav_bar/sliding_clipped_nav_bar.dart';
 
@@ -65,6 +66,5 @@ List<Widget> _listOfWidget = <Widget>[
   Screen1Home(),
   Container(
       alignment: Alignment.center, child: const Text("Logs implementation")),
-  Container(
-      alignment: Alignment.center, child: const Text("Profile implementation")),
+  ProfileScreen(),
 ];
